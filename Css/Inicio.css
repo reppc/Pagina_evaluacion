@@ -1,0 +1,18 @@
+a{
+	color: lightgray;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+}
+.tipoL{
+	text-align: center;
+	align-self: center;
+	font-size:20px	;
+	color: lightgray;
+	font-family: roboto;
+
+}
+.inicio{
+	width: 20pt;
+}
