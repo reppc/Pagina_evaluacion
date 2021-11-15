@@ -5,6 +5,7 @@
 	<title>CEFAL</title>
 	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="Css/Inicio.css">
+	<link rel="stylesheet" type="text/css" href="Css/cartas_inicio.css">
 </head>
 <body style="background-color: #22050A;">
 <!--nav bar-->
@@ -40,9 +41,35 @@
 		</div>
 	<!--fin-->
 <!--fin-->
+<!--contenido-->
+	<div class="container">
+       
+        <div class="card">
+            <img src="img/img1.jpg">
+            <h4>Naturaleza</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <a href="#">Leer más</a>
+        </div>
+        
+        <div class="card">
+            <img src="img/img2.jpg">
+            <h4>Comida</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <a href="#">Leer más</a>
+        </div>
+        
+        <div class="card">
+            <img src="img/img3.jpg">
+            <h4>Tecnología</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <a href="#">Leer más</a>
+        </div>
+        
+    </div>
+<!--fin-->
 <!--footer-->
-<?php
-	require_once("items/footer.php");
+	<?php
+		require_once("items/footer.php");
 	?>
 <!--fin-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
