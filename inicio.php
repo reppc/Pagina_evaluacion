@@ -6,17 +6,44 @@
 	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="Css/Inicio.css">
 </head>
-<body>
+<body style="background-color: #22050A;">
 <!--nav bar-->
-<div class="row">
-<?php
- require_once("items/navbar.php");
- ?>
-</div>
- 
+	
+	<?php
+	require_once("items/navbar.php");
+	?>
+	
 <!--fin-->
 <!--heder-->
-
+	<!--carrucel-->
+		<div id="carouselExampleControls" style=" width: 100%; " class="carousel slide" data-bs-ride="carousel">
+			<!--items-->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+					<img  style="margin-left: 25%;" src="items\recursos\FOTOS\WhatsApp Image 2021-11-14 at 9.08.46 PM.jpeg" class="d-block w-50" alt="...">
+					</div>
+					<div class="carousel-item">
+					<img  style="margin-left: 25%;" src="items\recursos\FOTOS\WhatsApp Image 2021-11-14 at 9.08.46 PM.jpeg" class="d-block w-50" alt="...">
+					</div>
+				</div>
+			<!--fin-->
+			<!--botones-->
+				<button style="" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			<!--fin-->
+		</div>
+	<!--fin-->
+<!--fin-->
+<!--footer-->
+<?php
+	require_once("items/footer.php");
+	?>
 <!--fin-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

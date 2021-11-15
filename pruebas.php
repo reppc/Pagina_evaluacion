@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pruebas</title>
 </head>
-<body>
+<body style="background-color: #22050A;">
 <!--nav bar-->
   <nav class="navbar navbar-expand-lg" style="background-color: #3F2D3B; color:white;">
     <div class="container-fluid">
@@ -49,26 +49,24 @@
   </nav>
 <!--fin-->
 <!--carrucel-->
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/becas.jpg" class="d-block w-50" alt="...">
+  <div id="carouselExampleControls" style="width:60%; width: 100%; " class="carousel slide" data-bs-ride="carousel">
+    <!--items-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img  style="margin-left: 25%;" src="items\recursos\FOTOS\WhatsApp Image 2021-11-14 at 9.08.46 PM.jpeg" class="d-block w-50" alt="...">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="img/becas.jpg" class="d-block w-50" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/becas.jpg" class="d-block w-50" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <!--fin-->
+    <!--botones-->
+      <button style="background-color:red;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button style="background-color:red;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    <!--fin-->
   </div>
 <!--fin-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
