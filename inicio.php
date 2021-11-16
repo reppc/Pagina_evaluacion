@@ -48,7 +48,7 @@
         <div class="card" style="width:20%;">
             <img src="img/img1.jpg">
             <h4>secundaria</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <p>Lorem ipsum doljdjdjdjdjdjdor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
             <a href="#">Leer más</a>
         </div>
         
