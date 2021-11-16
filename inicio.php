@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="Css/cartas_inicio.css">
 </head>
 <body style="background-color: #22050A;">
+<div style="margin-left:10%;margin-right:10%;">
 <!--nav bar-->
 	
 	<?php
@@ -44,34 +45,41 @@
 <!--contenido-->
 	<div class="container">
        
-        <div class="card">
+        <div class="card" style="width:20%;">
             <img src="img/img1.jpg">
-            <h4>Naturaleza</h4>
+            <h4>secundaria</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
             <a href="#">Leer más</a>
         </div>
         
-        <div class="card">
+        <div class="card" style="width:20%;">
             <img src="img/img2.jpg">
-            <h4>Comida</h4>
+            <h4>preparatoria</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
             <a href="#">Leer más</a>
         </div>
         
-        <div class="card">
+        <div class="card" style="width:20%;">
             <img src="img/img3.jpg">
-            <h4>Tecnología</h4>
+            <h4>diplomados</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
             <a href="#">Leer más</a>
         </div>
         
     </div>
 <!--fin-->
+<!--aserca de nosotros-->
+	<div style="color:white; width:40%; margin-left:30%;">
+		<h2 style="text-align:center;">sobre nosotros</h2>	
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, sunt rerum porro iusto ullam odit accusamus aliquam dicta, magnam saepe quisquam praesentium repellendus cupiditate cumque voluptates aliquid suscipit. Quia, et!</p>
+	</div>
+<!--fin-->
 <!--footer-->
 	<?php
 		require_once("items/footer.php");
 	?>
 <!--fin-->
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

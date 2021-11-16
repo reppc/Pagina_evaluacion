@@ -16,7 +16,7 @@ echo"
         <a class='tipoL' href=''><img src='img/inicio2.png' style='width: 15pt;'>&nbsp;Inicio</a>
         </li>
         <li class='nav-item'>
-        <a class='tipoL' href='' style='margin-left:5px;'><img src='img/sis.png'style='width: 15pt;'>Sistemas</a>
+        <a class='tipoL' href='pantallas/sistemas.php' style='margin-left:5px;'><img src='img/sis.png'style='width: 15pt;'>Sistemas</a>
         </li>
         <li class='nav-item'>
         <a class='tipoL' href='' style='margin-left:5px;'><img src='img/egre.png'style='width: 18pt;'>Administracion</a>
