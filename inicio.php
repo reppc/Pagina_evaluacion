@@ -45,24 +45,17 @@
 <!--contenido-->
 	<div class="container">
        
-        <div class="card" style="width:20%;">
+        <div class="card" style="width:30%;">
             <img src="img/img1.jpg">
             <h4>secundaria</h4>
-            <p>Lorem ipsum doljdjdjdjdjdjdor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <p>secundaria en 4 meses de la mano con INEA</p>
             <a href="#">Leer más</a>
         </div>
         
-        <div class="card" style="width:20%;">
+        <div class="card" style="width:30%;">
             <img src="img/img2.jpg">
             <h4>preparatoria</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-            <a href="#">Leer más</a>
-        </div>
-        
-        <div class="card" style="width:20%;">
-            <img src="img/img3.jpg">
-            <h4>diplomados</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <p>la preparatoria cuenta con diplomado en Administracion</p>
             <a href="#">Leer más</a>
         </div>
         
@@ -71,7 +64,8 @@
 <!--aserca de nosotros-->
 	<div style="color:white; width:40%; margin-left:30%;">
 		<h2 style="text-align:center;">sobre nosotros</h2>	
-		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, sunt rerum porro iusto ullam odit accusamus aliquam dicta, magnam saepe quisquam praesentium repellendus cupiditate cumque voluptates aliquid suscipit. Quia, et!</p>
+		<p>Planes de estudio para jóvenes y
+    trabajadores en menos tiempo y nos adaptamos a tus horarios </p>
 	</div>
 <!--fin-->
 <!--footer-->
