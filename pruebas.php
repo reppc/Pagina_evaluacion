@@ -22,7 +22,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+          
+        <li class="nav-item">
           <a class="tipoL" href=''><img src='img/inicio2.png' style='width: 15pt;'>&nbsp;Inicio</a>
           </li>
           <li class="nav-item">
@@ -46,10 +47,14 @@
         </ul>
       </div>
     </div>
+    
   </nav>
+  <div class="nombre" style="border-radius: 0px 0px 55px 0px; width:350px;">
+      <p>Centro de Sistemas y Capacitacion Empresarial</p>
+    </div>
 <!--fin-->
 <!--carrucel-->
-  <div id="carouselExampleControls" style="width:60%; width: 100%; " class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleControls" style="width:60%; width: 100%; margin-top: 50px;" class="carousel slide" data-bs-ride="carousel">
     <!--items-->
       <div class="carousel-inner">
         <div class="carousel-item active">
