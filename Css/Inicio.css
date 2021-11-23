@@ -3,16 +3,40 @@ a{
 	text-decoration: none;
 	
 }
+
+.reg:hover{
+	background-color: lightblue;
+}
 a:hover{
-	color: white;
+	border-top: solid;
+	border-bottom: solid;
+	border-color: blue;
 }
 .tipoL{
 	text-align: center;
 	/*align-self: center;*/
 	font-size:20px	;
 	color: lightgray;
-	font-family: roboto;
+	font-family: Montserrat,'Trebuchet MS', Helvetica, sans-serif;
+	
 
+
+}
+
+.tipo2{
+	font-size:17px	;
+	color: lightgray;
+	font-family: roboto;
+}
+.acomodo{
+	background-color: #3f2d3b;
+	border: none;
+}
+.tipoL:hover{
+	color:  white;
+	}
+.ofer: hover{
+	background-color: white;
 }
 .inicio{
 	width: 20pt;

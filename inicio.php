@@ -11,18 +11,19 @@
     <link rel="stylesheet" type="text/css" href="Css/Inicio.css" />
     <link rel="stylesheet" type="text/css" href="Css/cartas_inicio.css" />
   </head>
-  <body style="background-color: #22050a">
+  <body style="background-color: #22050a;">
+    <?php
+      require_once("items/navbar.php");
+      ?>
     <div style="margin-left: 10%; margin-right: 10%">
       <!--nav bar-->
-			<?php
-			require_once("items/navbar.php");
-			?>
+			
       <!--fin-->
       <!--heder-->
       <!--carrucel-->
       <div
         id="carouselExampleControls"
-        style="width: 100%"
+        style="width: 100%; background-color: #137c63;"
         class="carousel slide"
         data-bs-ride="carousel"
       >
@@ -74,22 +75,22 @@
         <div class="container">
           <div class="card" style="width: 30%">
             <img src="img/img1.jpg" />
-            <h4>secundaria</h4>
-            <p>secundaria en 4 meses de la mano con INEA</p>
+            <h4>Secundaria</h4>
+            <p>Secundaria en 4 meses de la mano con INEA</p>
             <a href="#">Leer más</a>
           </div>
 
           <div class="card" style="width: 30%">
             <img src="img/img2.jpg" />
-            <h4>preparatoria</h4>
-            <p>la preparatoria cuenta con diplomado en Administracion</p>
+            <h4>Preparatoria</h4>
+            <p>La preparatoria cuenta con diplomado en Administracion</p>
             <a href="#">Leer más</a>
           </div>
         </div>
       <!--fin-->
       <!--aserca de nosotros-->
       <div style="color: white; width: 40%; margin-left: 30%">
-        <h2 style="text-align: center">sobre nosotros</h2>
+        <h2 style="text-align: center">Sobre nosotros</h2>
         <p>
           Planes de estudio para jóvenes y trabajadores en menos tiempo y nos
           adaptamos a tus horarios
