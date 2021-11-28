@@ -10,7 +10,7 @@ a{
 a:hover{
 	border-top: solid;
 	border-bottom: solid;
-	border-color: blue;
+	border-color: rgb(0, 0, 0);
 }
 .tipoL{
 	text-align: center;
@@ -35,7 +35,7 @@ a:hover{
 .tipoL:hover{
 	color:  white;
 	}
-.ofer: hover{
+.ofer:hover{
 	background-color: white;
 }
 .inicio{

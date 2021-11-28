@@ -6,14 +6,14 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="Bootstrap/css/bootstrap.min.css"
+      href="../Bootstrap/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="Css/Inicio.css" />
-    <link rel="stylesheet" type="text/css" href="Css/cartas_inicio.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/Inicio.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/cartas_inicio.css" />
   </head>
   <body style="background-color: #22050a;">
     <?php
-      require_once("items/navbar.php");
+      require_once("../items/navbar.php");
       ?>
     <div style="margin-left: 10%; margin-right: 10%">
       <!--nav bar-->
@@ -99,7 +99,7 @@
       <!--fin-->
       <!--footer-->
 		<?php
-			require_once("items/footer.php");
+			require_once("../items/footer.php");
 		?>
       <!--fin-->
     </div>
@@ -108,5 +108,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="Bootstrap/js/bootstrap.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
